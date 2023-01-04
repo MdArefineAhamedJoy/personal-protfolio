@@ -192,3 +192,15 @@ main{
     font-weight: 300;
     text-align: center;
 }
+
+/*                 footer section           */
+.footer-container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    background-color: #FFF8F3;
+    justify-content: center;
+}
+.contuct-msg{
+    display: block;
+}
