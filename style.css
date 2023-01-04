@@ -161,6 +161,9 @@ main{
 }
 .degree{
     border-bottom: 1px solid black;
+    box-shadow: 5px 5px 18px wheat;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 .exparianc{
     margin: 25px 50px 25px 0;  
@@ -174,4 +177,18 @@ main{
 }
 .exprian{
     margin-left: 50px;
+   
+}
+.btn-exparance{
+    display:block;
+    padding: 12px 18px;
+    margin: 10px auto;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px orangered;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    font-weight: 300;
+    text-align: center;
 }
