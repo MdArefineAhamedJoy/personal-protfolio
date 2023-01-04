@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*                 header nav section                */
+main{
+    width: 90%;
+    margin: 0 auto;
+    background-color:  #FFF8F3;
+}
+.nav-continer{
+  
+}
+.parson-nav {
+    display: flex;
+    margin: 10px 10px ;
+    padding: 10px 30px;
+    justify-content: space-between;
+}
+.parson-nav > h1{
+    padding: 10px 20px;
+}
+.parson-nav ul{
+    display: flex;
+}
+.parson-nav ul li{
+    padding: 10px 20px;
+    list-style: none;
+}
+.parson-nav ul .hier-me{
+    background-color: orangered;
+    border-radius: 5px;
+}
+/* .......................................................         */
+
+/*                       header main section            */
+
+
+.container-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-blog{
+    width: 100%;
+    padding: 40px;
+}
+.conten-text > h3{
+    font-weight: 600;
+    font-size: 35px;
+}
+.conten-text > h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.btn-info button{
+    display:inline-block;
+    padding: 15px 25px;
+    margin: 25px 10px 5px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px orangered;
+    font-size: 22px;
+    color: orangered;
+    font-weight: 700;
+}
+.btn-info button:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.5s;
+}
+/*         img section style          */
+.header-img{
+    width: 100%;
+    background-image: url(images/header_bg.png);
+}
+.header-img img{
+    width:100% ;
+    height:100%;
+    margin: 5px;
+    padding: 4px ;
+}
