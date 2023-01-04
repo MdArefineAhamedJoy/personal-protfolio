@@ -140,3 +140,38 @@ main{
 .my-skill , h3{
     padding: 15px 0;
 }
+/*         education and summary section    */
+.education-summary > h1{
+  text-align: center;
+  margin: 50px ;
+}
+.sumary-container{
+    display: flex;
+    margin: 10px;
+    
+}
+.education > h1{
+    margin: 25px 0;  
+    padding: 10px;
+    gap: 20px;
+}
+.degree h2, h4 ,p{
+    padding: 10px;
+    
+}
+.degree{
+    border-bottom: 1px solid black;
+}
+.exparianc{
+    margin: 25px 50px 25px 0;  
+    padding: 10px;
+    
+}
+.exparianc > h1{
+    margin: 25px 0;  
+    padding: 10px;
+
+}
+.exprian{
+    margin-left: 50px;
+}
