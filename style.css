@@ -90,9 +90,11 @@ main{
 
 /*                    about section          */
 .about-container{
-    width: 60%;
+    width: 80%;
     margin: 130px auto 50px;
     border: 3px solid red;
+    padding: 70px;
+    background-color: #FFF8F3;
 
 }
 .about-conte{
@@ -109,4 +111,32 @@ main{
     padding-left:  15px;
     justify-content: space-between;
 
+}
+
+/*                         my skill section                */
+.my-skil-cnt{
+    width: 80%;
+    margin: 50px auto;
+}
+.experiance-skill{
+    text-align: center;
+    padding: 50px ;
+}
+.experiance-skill h2{
+    padding: 30px;
+}
+.my-skill{
+    display: flex;
+    gap: 20px;
+
+
+}
+.skill1,.skill2,.skill3,.skill4{
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px wheat;
+}
+.my-skill , h3{
+    padding: 15px 0;
 }
